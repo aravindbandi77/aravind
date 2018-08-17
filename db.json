@@ -1,14 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "orders": 
+    { 
+      "new": 180 ,
+      "inProgress": 320,
+      "pending": 3,
+      "shipped": 7, 
+      "completed": 760,
+      "cancelled": 10
+    },
+  "visitors":{
+     "unique":4200,
+     "pageViews":15000,
+     "avgTime":"14:44"
+  },
+  "comments":{
+    "new":95,
+    "approved":10,
+    "pending":123
+  },
   "profile": {
-    "name": "typicode"
+    "name": "prajwala"
   }
 }
+
+
